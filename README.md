@@ -32,7 +32,6 @@ CMD ["python", "app.py"]
 
 STEP 4: Build image
 docker build -t flask-container .
-docker run -d -p 5000:5000 --name myflask flask-container
 
 STEP 5: Run container
 docker run -d -p 5000:5000 --name myflask flask-container
