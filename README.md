@@ -1,5 +1,5 @@
 # DevopsQ8 Q8 – Containerise Flask Application
-STEP 1: Use SAME app
+STEP 1: Use SAME app.py
 from flask import Flask, request
 
 app = Flask(__name__)
@@ -18,6 +18,7 @@ def add():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
 requirements.txt
 flask
 
